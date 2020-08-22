@@ -1,6 +1,6 @@
 #Greenfoot project file
 class.Secciones.image=Pruebas.png
-class.back.image=volver.png
+class.back.image=salir.png
 class.car.image=car03.png
 class.cone.image=cone.png
 class.exit.image=salir.png
@@ -14,12 +14,16 @@ class.man6.image=man6.PNG
 class.menu.image=bmw-m-motogp-safety-car.jpg
 class.menuS.image=bmw-m-motogp-safety-car.jpg
 class.pr1s1.image=pr1s1.PNG
-class.s1.image=s1.png
+class.pr2s1.image=pr2s1.PNG
+class.pr3s1.image=pr3s1.PNG
+class.pr4s1.image=pr4s1.PNG
+class.s1.image=bathroom-tile.jpg
 class.stats.image=Estadisticas.png
 class.test1P.image=granite-light.jpg
 dependency1.from=test1P
 dependency1.to=car
 dependency1.type=UsesDependency
+<<<<<<< Updated upstream
 dependency10.from=car
 dependency10.to=test1P
 dependency10.type=UsesDependency
@@ -35,6 +39,14 @@ dependency13.type=UsesDependency
 dependency14.from=Secciones
 dependency14.to=menuS
 dependency14.type=UsesDependency
+=======
+dependency10.from=s1
+dependency10.to=test1P
+dependency10.type=UsesDependency
+dependency11.from=Secciones
+dependency11.to=menuS
+dependency11.type=UsesDependency
+>>>>>>> Stashed changes
 dependency2.from=test1P
 dependency2.to=cone
 dependency2.type=UsesDependency
@@ -50,6 +62,7 @@ dependency5.type=UsesDependency
 dependency6.from=menu
 dependency6.to=mWEB
 dependency6.type=UsesDependency
+<<<<<<< Updated upstream
 dependency7.from=menuS
 dependency7.to=back
 dependency7.type=UsesDependency
@@ -66,6 +79,24 @@ editor.fx.0.y=0
 height=1056
 package.numDependencies=14
 package.numTargets=19
+=======
+dependency7.from=back
+dependency7.to=menu
+dependency7.type=UsesDependency
+dependency8.from=car
+dependency8.to=test1P
+dependency8.type=UsesDependency
+dependency9.from=car
+dependency9.to=cone
+dependency9.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+height=838
+package.numDependencies=11
+package.numTargets=20
+>>>>>>> Stashed changes
 project.charset=windows-1252
 publish.hasSource=false
 publish.locked=true
@@ -88,70 +119,90 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
-target10.name=man6
+target10.name=pr4s1
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
 target11.height=50
-target11.name=pr2s1
+target11.name=man6
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=80
 target11.x=0
 target11.y=0
 target12.height=50
-target12.name=exit
+target12.name=pr2s1
 target12.showInterface=false
 target12.type=ClassTarget
 target12.width=80
 target12.x=0
 target12.y=0
 target13.height=50
-target13.name=pr1s1
+target13.name=exit
 target13.showInterface=false
 target13.type=ClassTarget
 target13.width=80
 target13.x=0
 target13.y=0
 target14.height=50
-target14.name=car
+target14.name=pr3s1
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
 target14.x=0
 target14.y=0
 target15.height=50
+<<<<<<< Updated upstream
 target15.name=mWEB
+=======
+target15.name=pr1s1
+>>>>>>> Stashed changes
 target15.showInterface=false
 target15.type=ClassTarget
 target15.width=80
 target15.x=0
 target15.y=0
 target16.height=50
+<<<<<<< Updated upstream
 target16.name=stats
+=======
+target16.name=car
+>>>>>>> Stashed changes
 target16.showInterface=false
 target16.type=ClassTarget
 target16.width=80
 target16.x=0
 target16.y=0
 target17.height=50
+<<<<<<< Updated upstream
 target17.name=menuS
+=======
+target17.name=stats
+>>>>>>> Stashed changes
 target17.showInterface=false
 target17.type=ClassTarget
 target17.width=80
 target17.x=0
 target17.y=0
 target18.height=50
+<<<<<<< Updated upstream
 target18.name=s1
+=======
+target18.name=menuS
+>>>>>>> Stashed changes
 target18.showInterface=false
 target18.type=ClassTarget
 target18.width=80
 target18.x=0
 target18.y=0
 target19.height=50
+<<<<<<< Updated upstream
 target19.name=Secciones
+=======
+target19.name=s1
+>>>>>>> Stashed changes
 target19.showInterface=false
 target19.type=ClassTarget
 target19.width=80
@@ -164,6 +215,13 @@ target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
+target20.height=50
+target20.name=Secciones
+target20.showInterface=false
+target20.type=ClassTarget
+target20.width=80
+target20.x=0
+target20.y=0
 target3.height=50
 target3.name=man5
 target3.showInterface=false
@@ -214,7 +272,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-width=1936
-world.lastInstantiated=menu
+width=1550
+world.lastInstantiated=menuS
 xPosition=0
 yPosition=0
