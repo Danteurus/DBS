@@ -28,5 +28,7 @@ public class menuS extends World
     {
         back back = new back();
         addObject(back,638,616);
+        s1 s1 = new s1();
+        addObject(s1,103,291);
     }
 }
