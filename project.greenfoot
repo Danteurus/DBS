@@ -1,6 +1,6 @@
 #Greenfoot project file
 class.Secciones.image=Pruebas.png
-class.back.image=salir.png
+class.back.image=volver.png
 class.car.image=car03.png
 class.cone.image=cone.png
 class.exit.image=salir.png
@@ -183,6 +183,6 @@ target9.x=0
 target9.y=0
 version=3.0.0
 width=1936
-world.lastInstantiated=menu
+world.lastInstantiated=menuS
 xPosition=0
 yPosition=0
