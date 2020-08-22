@@ -52,7 +52,7 @@ public class car extends Actor
         {
             ac = -5;
         }
-        move((int) ac);
+        move(5);
     }
     
     public void carTurning()
