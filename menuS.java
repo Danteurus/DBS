@@ -27,8 +27,16 @@ public class menuS extends World
     private void prepare()
     {
         back back = new back();
-        addObject(back,638,616);
+        addObject(back,640,616);
         s1 s1 = new s1();
-        addObject(s1,103,291);
+        addObject(s1,105,291);
+        s5 s5 = new s5();
+        addObject(s5,1175,291);
+        s3 s3 = new s3();
+        addObject(s3,640,291);
+        s2 s2 = new s2();
+        addObject(s2,372,291);
+        s4 s4 = new s4();
+        addObject(s4,907,291);
     }
 }
