@@ -52,7 +52,7 @@ public class car extends Actor
         {
             ac = -5;
         }
-        move((10);
+        move(10);
         //prueba
     }
     
