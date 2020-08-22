@@ -14,7 +14,17 @@ class.man6.image=man6.PNG
 class.menu.image=bmw-m-motogp-safety-car.jpg
 class.menuS.image=bmw-m-motogp-safety-car.jpg
 class.pr1s1.image=pr1s1.PNG
+<<<<<<< Updated upstream
 class.s1.image=s1.png
+=======
+class.pr2s1.image=pr2s1.PNG
+class.pr3s1.image=pr3s1.PNG
+class.pr4s1.image=pr4s1.PNG
+class.pr5s1.image=pr5s1.PNG
+class.pr6s1.image=pr6s1.PNG
+class.pr7s1.image=pr7s1.PNG
+class.s1.image=bathroom-tile.jpg
+>>>>>>> Stashed changes
 class.stats.image=Estadisticas.png
 class.test1P.image=granite-light.jpg
 dependency1.from=test1P
@@ -65,7 +75,11 @@ editor.fx.0.x=0
 editor.fx.0.y=0
 height=1056
 package.numDependencies=14
+<<<<<<< Updated upstream
 package.numTargets=19
+=======
+package.numTargets=24
+>>>>>>> Stashed changes
 project.charset=windows-1252
 publish.hasSource=false
 publish.locked=true
@@ -81,133 +95,215 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
-target1.name=man1
+target1.name=back
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
+<<<<<<< Updated upstream
 target10.name=man6
+=======
+target10.name=car
+>>>>>>> Stashed changes
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
 target11.height=50
+<<<<<<< Updated upstream
 target11.name=pr2s1
+=======
+target11.name=mWEB
+>>>>>>> Stashed changes
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=80
 target11.x=0
 target11.y=0
 target12.height=50
+<<<<<<< Updated upstream
 target12.name=exit
+=======
+target12.name=stats
+>>>>>>> Stashed changes
 target12.showInterface=false
 target12.type=ClassTarget
 target12.width=80
 target12.x=0
 target12.y=0
 target13.height=50
+<<<<<<< Updated upstream
 target13.name=pr1s1
+=======
+target13.name=s1
+>>>>>>> Stashed changes
 target13.showInterface=false
 target13.type=ClassTarget
 target13.width=80
 target13.x=0
 target13.y=0
 target14.height=50
+<<<<<<< Updated upstream
 target14.name=car
+=======
+target14.name=Secciones
+>>>>>>> Stashed changes
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
 target14.x=0
 target14.y=0
 target15.height=50
+<<<<<<< Updated upstream
 target15.name=mWEB
+=======
+target15.name=man1
+>>>>>>> Stashed changes
 target15.showInterface=false
 target15.type=ClassTarget
 target15.width=80
 target15.x=0
 target15.y=0
 target16.height=50
+<<<<<<< Updated upstream
 target16.name=stats
+=======
+target16.name=test1P
+>>>>>>> Stashed changes
 target16.showInterface=false
 target16.type=ClassTarget
 target16.width=80
 target16.x=0
 target16.y=0
 target17.height=50
+<<<<<<< Updated upstream
 target17.name=menuS
+=======
+target17.name=man5
+>>>>>>> Stashed changes
 target17.showInterface=false
 target17.type=ClassTarget
 target17.width=80
 target17.x=0
 target17.y=0
 target18.height=50
+<<<<<<< Updated upstream
 target18.name=s1
+=======
+target18.name=man4
+>>>>>>> Stashed changes
 target18.showInterface=false
 target18.type=ClassTarget
 target18.width=80
 target18.x=0
 target18.y=0
 target19.height=50
+<<<<<<< Updated upstream
 target19.name=Secciones
+=======
+target19.name=man3
+>>>>>>> Stashed changes
 target19.showInterface=false
 target19.type=ClassTarget
 target19.width=80
 target19.x=0
 target19.y=0
 target2.height=50
-target2.name=test1P
+target2.name=pr6s1
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
+<<<<<<< Updated upstream
+=======
+target20.height=50
+target20.name=man2
+target20.showInterface=false
+target20.type=ClassTarget
+target20.width=80
+target20.x=0
+target20.y=0
+target21.height=50
+target21.name=menu
+target21.showInterface=false
+target21.type=ClassTarget
+target21.width=80
+target21.x=0
+target21.y=0
+target22.height=50
+target22.name=man6
+target22.showInterface=false
+target22.type=ClassTarget
+target22.width=80
+target22.x=0
+target22.y=0
+target23.height=50
+target23.name=exit
+target23.showInterface=false
+target23.type=ClassTarget
+target23.width=80
+target23.x=0
+target23.y=0
+target24.height=50
+target24.name=menuS
+target24.showInterface=false
+target24.type=ClassTarget
+target24.width=80
+target24.x=0
+target24.y=0
+>>>>>>> Stashed changes
 target3.height=50
-target3.name=man5
+target3.name=cone
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-target4.name=back
+target4.name=pr7s1
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
-target5.name=man4
+target5.name=pr4s1
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-target6.name=man3
+target6.name=pr5s1
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-target7.name=man2
+target7.name=pr2s1
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
-target8.name=menu
+target8.name=pr3s1
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
+<<<<<<< Updated upstream
 target9.name=cone
+=======
+target9.name=pr1s1
+>>>>>>> Stashed changes
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
