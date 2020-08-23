@@ -19,6 +19,7 @@ public class car extends Actor
         carMoving();
         carTurning();
         carKnock();
+        returnFails();
     }
     /**
      * Fï¿½sicas y controles de freno y aceleraciï¿½n del vehï¿½culo.
@@ -114,5 +115,12 @@ public class car extends Actor
                 Greenfoot.setWorld(new test1P());
             }
         }
+    }
+    /**
+     * returnFails() - Este metodo permite al usuario ver la cantidad de errores máximos que puede cometer.
+     */
+    public void returnFails()
+    {
+        getWorld().showText(String.valueOf((int) (2 - this.fails)), 1200, 700);
     }
 }
