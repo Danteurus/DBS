@@ -22,6 +22,7 @@ public class A2 extends respuestas
        
         if (Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new pr3s1());
+            cal=cal+1;
         } 
     }
 }
