@@ -16,7 +16,7 @@ public class pr2s1 extends World
     public pr2s1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-<<<<<<< Updated upstream
+
         super(1280, 720, 1); 
         prepare();
     }
@@ -33,8 +33,5 @@ public class pr2s1 extends World
         addObject(a,698,370);
         C c = new C();
         addObject(c,698,506);
-=======
-        super(1250, 720, 1); 
->>>>>>> Stashed changes
     }
 }
