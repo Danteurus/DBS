@@ -9,11 +9,19 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class A7 extends respuestas
 {
     /**
-     * Act - do whatever the A7 wants to do. This method is called whenever
+     * Act - do whatever the A wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        Respuesta7a();
+ 
+    }   
+    public void Respuesta7a()
+    {
+       
+        if (Greenfoot.mouseClicked(this)) {
+            Greenfoot.setWorld(new resultados());
+        } 
+    }
 }
