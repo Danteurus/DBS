@@ -16,7 +16,11 @@ public class A extends respuestas
     {
         Respuesta1a();
  
-    }   
+    } 
+    /**
+     * el metodo respuesta actua cuando el usuario clickea esa 
+     * respuesta y suma al calificador si es correcta
+     */
     public void Respuesta1a()
     {
         int cal=0;

@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class C3 here.
+ * Acciones de una opcion de una pregunta
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class C3 extends respuestas
 {
@@ -17,11 +17,16 @@ public class C3 extends respuestas
         Respuesta3c();
  
     }   
+    /**
+     * el metodo respuesta actua cuando el usuario clickea esa 
+     * respuesta y suma al calificador si es correcta
+     */
     public void Respuesta3c()
     {
        
         if (Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new pr4s1());
+            cal=cal+1;
         } 
     }
 }

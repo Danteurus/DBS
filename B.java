@@ -16,7 +16,11 @@
     {
         Respuesta1b();
  
-    }   
+    } 
+    /**
+     * el metodo respuesta actua cuando el usuario clickea esa 
+     * respuesta y suma al calificador si es correcta
+     */
     public void Respuesta1b()
     {
         int cal=0;

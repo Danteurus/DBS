@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class B6 here.
+ * Acciones de una opcion de una pregunta
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class B6 extends respuestas
 {
@@ -16,12 +16,17 @@ public class B6 extends respuestas
     {
         Respuesta6b();
  
-    }   
+    } 
+    /**
+     * el metodo respuesta actua cuando el usuario clickea esa 
+     * respuesta y suma al calificador si es correcta
+     */
     public void Respuesta6b()
     {
        
         if (Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new pr7s1());
+            cal=cal+1;
         } 
     }
 }
