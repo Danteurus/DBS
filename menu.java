@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Menú here.
+ * Esta clase nos permite desplazarnos dentro de las opciones básicas de la app.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class menu extends World
 {
 
     /**
-     * Constructor for objects of class Menú.
+     * El contructor de la clase menu.
      * 
      */
     public menu()
@@ -21,8 +21,8 @@ public class menu extends World
     }
 
     /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
+     * Método que prepara todos los botones que deben estar presentes en el
+     * menu.
      */
     private void prepare()
     {

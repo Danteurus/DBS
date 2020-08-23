@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class pr1s1 here.
+ * Pregunta 1 de la sección 1.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class pr1s1 extends World
 {
 
     /**
-     * Constructor for objects of class pr1s1.
+     * Contructor para pr1s1.
      * 
      */
     public pr1s1()
@@ -21,8 +21,7 @@ public class pr1s1 extends World
     }
 
     /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
+     * Método que coloca todas las posibles opciones de respuesta.
      */
     private void prepare()
     {

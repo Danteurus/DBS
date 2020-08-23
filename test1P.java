@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
+ * Primera prueba práctica.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/20)
  */
 public class test1P extends World
 {
 
     /**
-     * Constructor for objects of class MyWorld.
+     * Constructor para la clase test1P.
      * 
      */
     public test1P()
@@ -21,8 +21,7 @@ public class test1P extends World
     }
 
     /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
+     * Método que prepara la prueba colocando el vehículo, obstaculos, entre otros.
      */
     private void prepare()
     {

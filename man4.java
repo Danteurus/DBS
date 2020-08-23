@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class man4 here.
+ * Man4 es la cuarta página del Manual.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class man4 extends World
 {
 
     /**
-     * Constructor for objects of class man4.
+     * Contructor de la clase Man4 que permite añadir las flechas al escenario.
      * 
      */
     public man4()
@@ -21,8 +21,8 @@ public class man4 extends World
     }
 
     /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
+     * El método que permite colocar las flechas en la pantalla cuando
+     * se genera la página del manual.
      */
     private void prepare()
     {

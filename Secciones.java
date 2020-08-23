@@ -1,9 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Secciones here.
+ * Simple botón que permite acceder al menú de secciones.
  * 
- * @author (your name) 
+ * @author (Cristian Serrano, Jean Portilla) 
  * @version (a version number or a date)
  */
 public class Secciones extends Actor
