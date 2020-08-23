@@ -14,8 +14,6 @@ public class car extends Actor
      * Act - Este m�todo se ejecuta repetidamente mientras
      * el bot�n 'Act' o 'Run' han sido presionados.
      */
-    private double ac;
-    private double fails;
     public void act() 
     {
         carMoving();
