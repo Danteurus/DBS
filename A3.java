@@ -19,7 +19,7 @@ public class A3 extends respuestas
     }   
     public void Respuesta3a()
     {
-        int cal=0;
+        
         if (Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new pr4s1());
         } 
