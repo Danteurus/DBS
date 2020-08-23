@@ -1,26 +1,28 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class car here.
+ * El vehículo que se utiliza durante las pruebas prácticas.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class car extends Actor
 {
     /**
-     * Act - do whatever the car wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - Este método se ejecuta repetidamente mientras
+     * el botón 'Act' o 'Run' han sido presionados.
      */
-    private double ac;
-    private double fails;
+    private double ac; // Velocidad del vehículo
+    private double fails; //Número de fallos del vegículo
     public void act() 
     {
         carMoving();
         carTurning();
         carKnock();
     }
-    
+    /**
+     * carMoving() - Método necesario para calcular las físicas del vehícu
+     */
     public void carMoving()
     {   
         if(Greenfoot.isKeyDown("up"))
@@ -55,7 +57,9 @@ public class car extends Actor
         move((int) ac);
         //prueba
     }
-    
+    /**
+     * carTurning() - Método necesario para que el vehículo pueda girar.
+     */
     public void carTurning()
     {   
         if(((int) ac) > 0)
@@ -83,7 +87,11 @@ public class car extends Actor
             }
         }
     }
-    
+    /**
+     * carTurning() - Método que detecta si el vehículo ha chocado con algún
+     * cono, de ser así, elimina el cono y añade un error al contador de
+     * errores; si los errores llegan a 3, la prueba se reiniciará.
+     */
     public void carKnock()
     {
         /* Actor cone;
