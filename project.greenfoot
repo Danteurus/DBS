@@ -3,11 +3,10 @@ class.A.image=a.png
 class.B.image=b.png
 class.C.image=c.png
 class.Secciones.image=Pruebas.png
-class.back.image=volver.png
+class.back.image=salir.png
 class.car.image=car03.png
 class.cone.image=cone.png
 class.exit.image=salir.png
-class.mWEB.image=mManual.png
 class.man1.image=manual1.PNG
 class.man2.image=man2.PNG
 class.man3.image=man3.PNG
@@ -23,16 +22,21 @@ class.pr4s1.image=pr4s1.PNG
 class.pr5s1.image=pr5s1.PNG
 class.pr6s1.image=pr6s1.PNG
 class.pr7s1.image=pr7s1.PNG
+<<<<<<< Updated upstream
 class.s1.image=s1.png
 class.s2.image=s2.png
 class.s3.image=s3.png
 class.s4.image=s4.png
 class.s5.image=s5.png
+=======
+class.s1.image=bathroom-tile.jpg
+>>>>>>> Stashed changes
 class.stats.image=Estadisticas.png
 class.test1P.image=granite-light.jpg
 dependency1.from=pr6s1
 dependency1.to=B
 dependency1.type=UsesDependency
+<<<<<<< Updated upstream
 dependency10.from=pr5s1
 dependency10.to=B
 dependency10.type=UsesDependency
@@ -65,6 +69,25 @@ dependency19.to=A
 dependency19.type=UsesDependency
 dependency2.from=pr6s1
 dependency2.to=A
+=======
+dependency10.from=car
+dependency10.to=test1P
+dependency10.type=UsesDependency
+dependency11.from=car
+dependency11.to=cone
+dependency11.type=UsesDependency
+dependency12.from=mWEB
+dependency12.to=man1
+dependency12.type=UsesDependency
+dependency13.from=s1
+dependency13.to=test1P
+dependency13.type=UsesDependency
+dependency14.from=Secciones
+dependency14.to=menuS
+dependency14.type=UsesDependency
+dependency2.from=test1P
+dependency2.to=cone
+>>>>>>> Stashed changes
 dependency2.type=UsesDependency
 dependency20.from=pr1s1
 dependency20.to=B
@@ -144,6 +167,7 @@ dependency7.type=UsesDependency
 dependency8.from=pr4s1
 dependency8.to=A
 dependency8.type=UsesDependency
+<<<<<<< Updated upstream
 dependency9.from=pr4s1
 dependency9.to=C
 dependency9.type=UsesDependency
@@ -154,6 +178,18 @@ editor.fx.0.y=97
 height=1056
 package.numDependencies=39
 package.numTargets=31
+=======
+dependency9.from=back
+dependency9.to=menu
+dependency9.type=UsesDependency
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=881
+package.numDependencies=14
+package.numTargets=24
+>>>>>>> Stashed changes
 project.charset=windows-1252
 publish.hasSource=false
 publish.locked=true
@@ -204,42 +240,66 @@ target13.width=80
 target13.x=0
 target13.y=0
 target14.height=50
+<<<<<<< Updated upstream
 target14.name=mWEB
+=======
+target14.name=Secciones
+>>>>>>> Stashed changes
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
 target14.x=0
 target14.y=0
 target15.height=50
+<<<<<<< Updated upstream
 target15.name=stats
+=======
+target15.name=man1
+>>>>>>> Stashed changes
 target15.showInterface=false
 target15.type=ClassTarget
 target15.width=80
 target15.x=0
 target15.y=0
 target16.height=50
+<<<<<<< Updated upstream
 target16.name=s1
+=======
+target16.name=test1P
+>>>>>>> Stashed changes
 target16.showInterface=false
 target16.type=ClassTarget
 target16.width=80
 target16.x=0
 target16.y=0
 target17.height=50
+<<<<<<< Updated upstream
 target17.name=s2
+=======
+target17.name=man5
+>>>>>>> Stashed changes
 target17.showInterface=false
 target17.type=ClassTarget
 target17.width=80
 target17.x=0
 target17.y=0
 target18.height=50
+<<<<<<< Updated upstream
 target18.name=Secciones
+=======
+target18.name=man4
+>>>>>>> Stashed changes
 target18.showInterface=false
 target18.type=ClassTarget
 target18.width=80
 target18.x=0
 target18.y=0
 target19.height=50
+<<<<<<< Updated upstream
 target19.name=s3
+=======
+target19.name=man3
+>>>>>>> Stashed changes
 target19.showInterface=false
 target19.type=ClassTarget
 target19.width=80
@@ -253,40 +313,61 @@ target2.width=80
 target2.x=0
 target2.y=0
 target20.height=50
+<<<<<<< Updated upstream
 target20.name=s4
+=======
+target20.name=man2
+>>>>>>> Stashed changes
 target20.showInterface=false
 target20.type=ClassTarget
 target20.width=80
 target20.x=0
 target20.y=0
 target21.height=50
+<<<<<<< Updated upstream
 target21.name=s5
+=======
+target21.name=menu
+>>>>>>> Stashed changes
 target21.showInterface=false
 target21.type=ClassTarget
 target21.width=80
 target21.x=0
 target21.y=0
 target22.height=50
+<<<<<<< Updated upstream
 target22.name=man1
+=======
+target22.name=man6
+>>>>>>> Stashed changes
 target22.showInterface=false
 target22.type=ClassTarget
 target22.width=80
 target22.x=0
 target22.y=0
 target23.height=50
+<<<<<<< Updated upstream
 target23.name=test1P
+=======
+target23.name=exit
+>>>>>>> Stashed changes
 target23.showInterface=false
 target23.type=ClassTarget
 target23.width=80
 target23.x=0
 target23.y=0
 target24.height=50
+<<<<<<< Updated upstream
 target24.name=man5
+=======
+target24.name=menuS
+>>>>>>> Stashed changes
 target24.showInterface=false
 target24.type=ClassTarget
 target24.width=80
 target24.x=0
 target24.y=0
+<<<<<<< Updated upstream
 target25.height=50
 target25.name=man4
 target25.showInterface=false
@@ -322,6 +403,8 @@ target29.type=ClassTarget
 target29.width=80
 target29.x=0
 target29.y=0
+=======
+>>>>>>> Stashed changes
 target3.height=50
 target3.name=C
 target3.showInterface=false
@@ -386,7 +469,12 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< Updated upstream
 width=1936
 world.lastInstantiated=pr7s1
+=======
+width=1528
+world.lastInstantiated=menuS
+>>>>>>> Stashed changes
 xPosition=0
 yPosition=0
