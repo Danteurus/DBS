@@ -25,11 +25,11 @@ public class pr3s1 extends World
      */
     private void prepare()
     {
-        B b = new B();
+        B3 b = new B3();
         addObject(b,700,407);
-        A a = new A();
+        A3 a = new A3();
         addObject(a,700,341);
-        C c = new C();
+        C3 c = new C3();
         addObject(c,700,473);
     }
 }

@@ -25,11 +25,11 @@ public class pr5s1 extends World
      */
     private void prepare()
     {
-        B b = new B();
+        B5 b = new B5();
         addObject(b,590,444);
-        A a = new A();
+        A5 a = new A5();
         addObject(a,590,375);
-        C c = new C();
+        C5 c = new C5();
         addObject(c,590,514);
     }
 }
