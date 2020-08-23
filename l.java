@@ -1,22 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class l here.
+ * Botón que permite al usuario ir a la página anterior.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class l extends Actor
 {
     /**
-     * Act - do whatever the l wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Activa el botón.
      */
     public void act() 
     {
         changeWorld();
     }
-    
+    /**
+     * Detecta en que página está el usuario, para dejarlo en la página correcta.
+     */
     public void changeWorld()
     {
         if (Greenfoot.mouseClicked(this)) {

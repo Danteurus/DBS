@@ -1,9 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class stats here.
+ * Botón que permite acceder a las estadísticas de las pruebas.
  * 
- * @author (your name) 
+ * @author (Cristian Serrano, Jean Portilla) 
  * @version (a version number or a date)
  */
 public class stats extends Actor

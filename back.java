@@ -1,16 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class back here.
+ * Simple botón que permite acceder al menú de secciones otra vez.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class back extends Actor
 {
     /**
-     * Act - do whatever the back wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Act permite que el usuario pueda interactuar con el botón al hacerle clic.
      */
     public void act() 
     {

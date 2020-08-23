@@ -1,16 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class exit here.
+ * Simple botón que permite al usuario cerrar la app.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class exit extends Actor
 {
     /**
-     * Act - do whatever the exit wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Permite al usuario dar clic sobre el objeto y detectarlo.
      */
     public void act() 
     {

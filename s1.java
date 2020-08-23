@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class s1 here.
+ * Botón que permite seleccionar la primera sección.
  * 
- * @author (your name) 
+ * @author (Cristian Serrano, Jean Portilla) 
  * @version (a version number or a date)
  */
 public class s1 extends Actor
 {
     /**
-     * Act - do whatever the s1 wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Detecta si el usuario ha hecho clic en el botón, si lo ha hecho,
+     * lo envía a la sección 1.
      */
     public void act() 
     {

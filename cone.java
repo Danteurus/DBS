@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class cone here.
+ * Obstaculo utilizado durante las pruebas prácticas.
  * 
- * @author (your name) 
+ * @author (Cristian Serrano, Jean Portilla) 
  * @version (a version number or a date)
  */
 public class cone extends Actor
 {
     /**
-     * Act - do whatever the cone wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Este método no hace nada de momento, solo permite que el objeto
+     * exista.
      */
     public void act() 
     {

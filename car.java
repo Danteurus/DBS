@@ -1,19 +1,21 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * El vehículo que se utiliza durante las pruebas prácticas.
+ * El vehï¿½culo que se utiliza durante las pruebas prï¿½cticas.
  * 
  * @author (Cristian Serrano, Jean Portilla) 
  * @version (23/08/2020)
  */
 public class car extends Actor
 {
+    private double ac; // Velocidad del vehï¿½culo
+    private double fails; // # de fallos
     /**
-     * Act - Este método se ejecuta repetidamente mientras
-     * el botón 'Act' o 'Run' han sido presionados.
+     * Act - Este mï¿½todo se ejecuta repetidamente mientras
+     * el botï¿½n 'Act' o 'Run' han sido presionados.
      */
-    private double ac; // Velocidad del vehículo
-    private double fails; //Número de fallos del vegículo
+    private double ac;
+    private double fails;
     public void act() 
     {
         carMoving();
@@ -21,10 +23,10 @@ public class car extends Actor
         carKnock();
     }
     /**
-     * carMoving() - Método necesario para calcular las físicas del vehícu
+     * Fï¿½sicas y controles de freno y aceleraciï¿½n del vehï¿½culo.
      */
     public void carMoving()
-    {   
+    {
         if(Greenfoot.isKeyDown("up"))
         {
             ac = ac + 0.25;
@@ -58,7 +60,7 @@ public class car extends Actor
         //prueba
     }
     /**
-     * carTurning() - Método necesario para que el vehículo pueda girar.
+     * carTurning() - Mï¿½todo necesario para que el vehï¿½culo pueda girar.
      */
     public void carTurning()
     {   
@@ -88,9 +90,9 @@ public class car extends Actor
         }
     }
     /**
-     * carTurning() - Método que detecta si el vehículo ha chocado con algún
-     * cono, de ser así, elimina el cono y añade un error al contador de
-     * errores; si los errores llegan a 3, la prueba se reiniciará.
+     * carTurning() - Mï¿½todo que detecta si el vehï¿½culo ha chocado con algï¿½n
+     * cono, de ser asï¿½, elimina el cono y aï¿½ade un error al contador de
+     * errores; si los errores llegan a 3, la prueba se reiniciarï¿½.
      */
     public void carKnock()
     {

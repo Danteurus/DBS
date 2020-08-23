@@ -4,13 +4,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * Simple botón que permite acceder al menú de secciones.
  * 
  * @author (Cristian Serrano, Jean Portilla) 
- * @version (a version number or a date)
+ * @version (23/08/2020)
  */
 public class Secciones extends Actor
 {
     /**
-     * Act - do whatever the Secciones wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Act permite que el usuario pueda interactuar con el botón al hacerle clic.
      */
     public void act() 
     {

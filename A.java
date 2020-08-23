@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class A here.
+ * Clase que actua como opci�n A en las preguntas teoricas.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Cristian Serrano, Jean Portilla) 
+ * @version (23/08/2020)
  */
 public class A extends respuestas
 {
