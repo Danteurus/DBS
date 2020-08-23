@@ -1,12 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class B here.
+ * Write a description of class A3 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
- public class B extends respuestas
+public class A3 extends respuestas
 {
     /**
      * Act - do whatever the A wants to do. This method is called whenever
@@ -14,14 +14,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
      */
     public void act() 
     {
-        Respuesta1b();
+        Respuesta3a();
  
     }   
-    public void Respuesta1b()
+    public void Respuesta3a()
     {
         int cal=0;
         if (Greenfoot.mouseClicked(this)) {
-            Greenfoot.setWorld(new pr2s1());
+            Greenfoot.setWorld(new pr4s1());
         } 
     }
 }

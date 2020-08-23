@@ -14,6 +14,14 @@ public class A extends respuestas
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        Respuesta1a();
+ 
+    }   
+    public void Respuesta1a()
+    {
+        int cal=0;
+        if (Greenfoot.mouseClicked(this)) {
+            Greenfoot.setWorld(new pr2s1());
+        } 
+    }
 }
