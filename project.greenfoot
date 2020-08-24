@@ -325,6 +325,7 @@ dependency9.type=UsesDependency
 dependency90.from=l
 dependency90.to=man6
 dependency90.type=UsesDependency
+<<<<<<< Updated upstream
 dependency91.from=r
 dependency91.to=man1
 dependency91.type=UsesDependency
@@ -352,6 +353,14 @@ editor.fx.0.x=-8
 editor.fx.0.y=-8
 height=1056
 package.numDependencies=97
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=838
+package.numDependencies=90
+>>>>>>> Stashed changes
 package.numTargets=57
 project.charset=windows-1252
 publish.hasSource=false
@@ -767,7 +776,12 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< Updated upstream
 width=1936
 world.lastInstantiated=pr1s1
+=======
+width=1550
+world.lastInstantiated=icorrecto
+>>>>>>> Stashed changes
 xPosition=0
 yPosition=0
