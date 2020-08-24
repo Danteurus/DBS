@@ -25,7 +25,7 @@ public class A7 extends respuestas
     {
        
         if (Greenfoot.mouseClicked(this)) {
-            cal++;
+            contar();
             Greenfoot.setWorld(new resultados());
             
         } 

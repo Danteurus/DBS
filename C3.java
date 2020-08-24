@@ -25,7 +25,7 @@ public class C3 extends respuestas
     {
        
         if (Greenfoot.mouseClicked(this)) {
-            cal++;
+            contar();
             Greenfoot.setWorld(new pr4s1());
             
         } 
