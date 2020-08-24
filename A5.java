@@ -24,7 +24,8 @@ public class A5 extends respuestas
     public void Respuesta5a()
     {
         if (Greenfoot.mouseClicked(this)) {
-            Greenfoot.setWorld(new pr6s1());
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,901,100);
         } 
     }
 }

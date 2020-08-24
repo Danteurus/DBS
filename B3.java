@@ -24,7 +24,8 @@ public class B3 extends respuestas
     public void Respuesta3b()
     {
         if (Greenfoot.mouseClicked(this)) {
-            Greenfoot.setWorld(new pr4s1());
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,901,100);
         } 
     }
 }

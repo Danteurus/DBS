@@ -25,9 +25,8 @@ public class A2 extends respuestas
     {
        
         if (Greenfoot.mouseClicked(this)) {
-            contar();
-            Greenfoot.setWorld(new pr3s1());
-            
+            correcto cor = new correcto();
+            getWorld().addObject(cor,901,100);
         } 
     }
 }

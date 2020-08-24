@@ -25,7 +25,8 @@ public class C7 extends respuestas
     {
        
         if (Greenfoot.mouseClicked(this)) {
-            Greenfoot.setWorld(new resultados());
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,901,100);
             
         } 
     }

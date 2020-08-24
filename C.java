@@ -24,8 +24,8 @@ public class C extends respuestas
     public void Respuesta1c()
     {
         if (Greenfoot.mouseClicked(this)) {
-            contar();
-            Greenfoot.setWorld(new pr2s1());
+            correcto cor = new correcto();
+            getWorld().addObject(cor,901,100);
         } 
     }
 }
