@@ -89,9 +89,10 @@ public class car extends Actor
         }
     }
     /**
-     * carTurning() - M�todo que detecta si el veh�culo ha chocado con alg�n
+     * carKnock() - M�todo que detecta si el veh�culo ha chocado con alg�n
      * cono, de ser as�, elimina el cono y a�ade un error al contador de
      * errores; si los errores llegan a 3, la prueba se reiniciar�.
+     * Ademas, si el vehiculo llega a la meta, este sera enviado al menu.
      */
     public void carKnock()
     {
@@ -108,6 +109,10 @@ public class car extends Actor
         if(cono!=null){
             getWorld().removeObject(cono);
             fails ++;
+        }
+        Actor meta = getOneIntersectingObject(meta.class);
+        if(meta!=null){
+            Greenfoot.setWorld(new menu());
         }
         if (fails >= 3)
         {

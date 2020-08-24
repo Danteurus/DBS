@@ -228,6 +228,8 @@ public class test1P extends World
         cone22.setLocation(571,629);
         cone26.setLocation(581,409);
         cone40.setLocation(590,119);
-        
+
+        meta meta = new meta();
+        addObject(meta,506,119);
     }
 }
