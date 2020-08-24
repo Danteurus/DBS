@@ -679,14 +679,18 @@ target52.width=80
 target52.x=0
 target52.y=0
 target53.height=50
+<<<<<<< Updated upstream
 target53.name=r
+=======
+target53.name=generar_r
+>>>>>>> Stashed changes
 target53.showInterface=false
 target53.type=ClassTarget
 target53.width=80
 target53.x=0
 target53.y=0
 target54.height=50
-target54.name=generar_r
+target54.name=menuS
 target54.showInterface=false
 target54.type=ClassTarget
 target54.width=80

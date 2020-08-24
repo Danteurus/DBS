@@ -8,16 +8,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */ 
 public class respuestas extends Actor 
 { 
-    int cal;/**calificador de la prueba teorica*/
+    int cal=0;/**calificador de la prueba teorica*/
 
     /** 
      * Act - do whatever the respuestas wants to do. This method is called whenever 
      * the 'Act' or 'Run' button gets pressed in the environment. 
      */ 
-    public void act()  
+    public void contar()  
     { 
         
-        
+        cal++;
         
     } 
     

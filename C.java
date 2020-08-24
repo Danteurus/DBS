@@ -24,7 +24,7 @@ public class C extends respuestas
     public void Respuesta1c()
     {
         if (Greenfoot.mouseClicked(this)) {
-            cal++;
+            contar();
             Greenfoot.setWorld(new pr2s1());
             
         } 

@@ -18,7 +18,7 @@ public class generar_r extends respuestas
     {
         if (Greenfoot.mouseClicked(this)) {
         getWorld().showText(res, 1000, 700);
-        getWorld().showText(String.valueOf((int) (this.cal)), 1200, 700);
+        getWorld().showText(String.valueOf(cal), 1200, 700);
     }
     }
 }
