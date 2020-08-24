@@ -19,7 +19,7 @@ public class C2 extends respuestas
     } 
     /**
      * el metodo respuesta actua cuando el usuario clickea esa 
-     * respuesta y suma al calificador si es correcta
+     * respuesta y muestra correcto o incorrecto
      */
     public void Respuesta2c()
     {
@@ -27,6 +27,8 @@ public class C2 extends respuestas
         if (Greenfoot.mouseClicked(this)) {
             incorrecto cor = new incorrecto();
             getWorld().addObject(cor,901,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,901,450);
         } 
     }
 }

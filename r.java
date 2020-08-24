@@ -16,7 +16,7 @@ public class r extends l
         changeWorld();
     }
     /**
-     * Detecta en que página está el usuario, para dejarlo en la página correcta.
+     * detecta la pregunta y al clickerse lo manda a la sigiente pregunta
      */
     public void changeWorld()
     {
@@ -47,5 +47,6 @@ public class r extends l
             }
         }
         
+        }
+        
     }
-}

@@ -19,13 +19,15 @@ public class A extends respuestas
     } 
     /**
      * el metodo respuesta actua cuando el usuario clickea esa 
-     * respuesta y suma al calificador si es correcta
+     * respuesta y muestra correcto o incorrecto
      */
     public void Respuesta1a()
     {
         if (Greenfoot.mouseClicked(this)) {
             incorrecto cor = new incorrecto();
             getWorld().addObject(cor,901,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,901,450);
         } 
     }
 }
