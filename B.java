@@ -23,7 +23,6 @@
      */
     public void Respuesta1b()
     {
-        int cal=0;
         if (Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new pr2s1());
         } 

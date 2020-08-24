@@ -23,10 +23,10 @@ public class C extends respuestas
      */
     public void Respuesta1c()
     {
-        int cal=0;
         if (Greenfoot.mouseClicked(this)) {
+            cal++;
             Greenfoot.setWorld(new pr2s1());
-            cal=cal+1;
+            
         } 
     }
 }
