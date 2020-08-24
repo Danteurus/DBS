@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Cristian Serrano, Jean Portilla) 
  * @version (23/08/2020)
  */
-public class menuS extends menu
+public class menuS extends World
 {
 
     /**
@@ -16,6 +16,7 @@ public class menuS extends menu
     public menuS()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(1280, 720, 1); 
         prepare();
     }
 
