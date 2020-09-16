@@ -11,6 +11,7 @@ public class car extends Actor
     private double ac; // Velocidad del veh�culo
     private double fails; // # de fallos
     private int pares;
+    private int metas;
     /**
      * Act - Este m�todo se ejecuta repetidamente mientras
      * el bot�n 'Act' o 'Run' han sido presionados.
@@ -110,6 +111,8 @@ public class car extends Actor
         Actor meta = getOneIntersectingObject(meta.class);
         Actor carnpc = getOneIntersectingObject(carnpc.class);
         Actor pare = getOneIntersectingObject(pare.class);
+        Actor park = getOneIntersectingObject(park.class);
+        Actor nopark = getOneIntersectingObject(nopark.class);
         if(cono!=null){
             getWorld().removeObject(cono);
             fails ++;
@@ -130,6 +133,8 @@ public class car extends Actor
                 }else{
                     Greenfoot.setWorld(new test3P());
                 }
+            }else{
+                Greenfoot.setWorld(new menu());
             }
         }
         if (fails >= 3)
@@ -149,6 +154,13 @@ public class car extends Actor
             if(getWorld() instanceof test5P){
                 Greenfoot.setWorld(new test5P());
             }
+        }
+        if((park!=null)&&((int) ac == 0)&&(metas==0)){
+            getWorld().addObject(new meta(),107,112);
+            metas++;
+        }
+        if((nopark!=null)&&((int) ac == 0)){
+            Greenfoot.setWorld(new test4P());
         }
     }
     /**

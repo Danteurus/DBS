@@ -222,6 +222,18 @@ public class test4P extends World
         addObject(cone97,170,461);
         cone cone98 = new cone();
         addObject(cone98,169,406);
+        nopark nopark = new nopark();
+        addObject(nopark,410,469);
+        nopark nopark2 = new nopark();
+        addObject(nopark2,593,464);
+        nopark nopark3 = new nopark();
+        addObject(nopark3,752,467);
+        nopark nopark4 = new nopark();
+        addObject(nopark4,412,259);
+        nopark nopark5 = new nopark();
+        addObject(nopark5,761,271);
+        park park = new park();
+        addObject(park,597,263);
         car car = new car();
         addObject(car,84,611);
     }
