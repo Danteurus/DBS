@@ -158,5 +158,18 @@ public class test2P extends World
         addObject(cone63,1211,464);
         cone cone64 = new cone();
         addObject(cone64,1256,463);
+        carnpc carnpc = new carnpc();
+        addObject(carnpc,796,333);
+        preventiva preventiva = new preventiva();
+        addObject(preventiva,575,375);
+        cone cone65 = new cone();
+        addObject(cone65,676,313);
+        cone cone66 = new cone();
+        addObject(cone66,703,340);
+        cone cone67 = new cone();
+        addObject(cone67,736,358);
+        meta meta = new meta();
+        addObject(meta,1170,374);
+        preventiva.setLocation(570,370);
     }
 }
