@@ -624,9 +624,15 @@ editor.fx.0.height=737
 editor.fx.0.width=814
 editor.fx.0.x=360
 editor.fx.0.y=28
+<<<<<<< HEAD
+height=27
+package.numDependencies=175
+package.numTargets=71
+=======
 height=1056
 package.numDependencies=182
 package.numTargets=75
+>>>>>>> master
 project.charset=windows-1252
 publish.hasSource=false
 publish.locked=true
@@ -894,14 +900,18 @@ target41.width=80
 target41.x=0
 target41.y=0
 target42.height=50
+<<<<<<< HEAD
+target42.name=man23
+=======
 target42.name=B7
+>>>>>>> master
 target42.showInterface=false
 target42.type=ClassTarget
 target42.width=80
 target42.x=0
 target42.y=0
 target43.height=50
-target43.name=man23
+target43.name=meta
 target43.showInterface=false
 target43.type=ClassTarget
 target43.width=80
@@ -1167,7 +1177,12 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
+width=159
+world.lastInstantiated=man1
+=======
 width=1936
-world.lastInstantiated=test4P
+world.lastInstantiated=menu
+>>>>>>> master
 xPosition=0
 yPosition=0
