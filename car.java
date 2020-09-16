@@ -109,6 +109,7 @@ public class car extends Actor
         Actor cono = getOneIntersectingObject(cone.class);
         Actor meta = getOneIntersectingObject(meta.class);
         Actor carnpc = getOneIntersectingObject(carnpc.class);
+        Actor pare = getOneIntersectingObject(pare.class);
         if(cono!=null){
             getWorld().removeObject(cono);
             fails ++;
@@ -116,13 +117,37 @@ public class car extends Actor
         if(carnpc!=null){
             Greenfoot.setWorld(new test2P());
         }
+        if((pare!=null)&&((int) ac == 0)){
+            pares++;
+            getWorld().removeObject(pare);
+            getWorld().addObject(new siga(), getX(), getY());
+        }
         if(meta!=null){
-            Greenfoot.setWorld(new menu());
+            if(getWorld() instanceof test3P){
+                if(pares > 0)
+                {
+                    Greenfoot.setWorld(new menu());
+                }else{
+                    Greenfoot.setWorld(new test3P());
+                }
+            }
         }
         if (fails >= 3)
         {
             if(getWorld() instanceof test1P){
                 Greenfoot.setWorld(new test1P());
+            }
+            if(getWorld() instanceof test2P){
+                Greenfoot.setWorld(new test2P());
+            }
+            if(getWorld() instanceof test3P){
+                Greenfoot.setWorld(new test3P());
+            }
+            if(getWorld() instanceof test4P){
+                Greenfoot.setWorld(new test4P());
+            }
+            if(getWorld() instanceof test5P){
+                Greenfoot.setWorld(new test5P());
             }
         }
     }

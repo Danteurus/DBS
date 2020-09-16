@@ -26,6 +26,8 @@ public class test3P extends World
      */
     private void prepare()
     {
+        pare pare = new pare();
+        addObject(pare,460,381);
         cone cone = new cone();
         addObject(cone,32,287);
         cone cone2 = new cone();
@@ -180,5 +182,6 @@ public class test3P extends World
         addObject(car,85,373);
         meta meta = new meta();
         addObject(meta,1163,392);
+        
     }
 }
