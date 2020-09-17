@@ -152,9 +152,9 @@
             }
              if(getWorld() instanceof pr4s4)
             {
-            correcto cor = new correcto();
+            incorrecto cor = new incorrecto();
             getWorld().addObject(cor,1000,100);
-            n1 n= new n1();
+            retorno n= new retorno();
             getWorld().addObject(n,300,450);
             }
              if(getWorld() instanceof pr5s4)

@@ -152,9 +152,9 @@ public class C extends respuestas
             }
              if(getWorld() instanceof pr4s4)
             {
-            incorrecto cor = new incorrecto();
+            correcto cor = new correcto();
             getWorld().addObject(cor,1000,100);
-            retorno n= new retorno();
+            n1 n= new n1();
             getWorld().addObject(n,300,450);
             }
              if(getWorld() instanceof pr5s4)
