@@ -23,11 +23,190 @@ public class C extends respuestas
      */
     public void Respuesta1c()
     {
-        if (Greenfoot.mouseClicked(this)) {
+         if (Greenfoot.mouseClicked(this)) {
+            if(getWorld() instanceof pr1s1)
+            {
             correcto cor = new correcto();
             getWorld().addObject(cor,901,100);
             n1 n= new n1();
             getWorld().addObject(n,901,450);
+            }
+            if(getWorld() instanceof pr1s2)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+            if(getWorld() instanceof pr2s2)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+            if(getWorld() instanceof pr3s2)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450);         
+            }
+             if(getWorld() instanceof pr4s2)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr5s2)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450);  
+            }
+             if(getWorld() instanceof pr6s2)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr7s2)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450); 
+            }
+             if(getWorld() instanceof pr1s3)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr2s3)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450); 
+            }
+             if(getWorld() instanceof pr3s3)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr4s3)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr5s3)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr6s3)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+              if(getWorld() instanceof pr7s3)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr1s4)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+              if(getWorld() instanceof pr2s4)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr3s4)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr4s4)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr5s4)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450); 
+            }
+             if(getWorld() instanceof pr6s4)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+              if(getWorld() instanceof pr7s4)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr1s5)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450);
+            }
+              if(getWorld() instanceof pr2s5)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+             if(getWorld() instanceof pr3s5)
+            {
+            incorrecto cor = new incorrecto();
+            getWorld().addObject(cor,1000,100);
+            retorno n= new retorno();
+            getWorld().addObject(n,300,450);
+            }
+              if(getWorld() instanceof pr4s5)
+            {
+            correcto cor = new correcto();
+            getWorld().addObject(cor,1000,100);
+            n1 n= new n1();
+            getWorld().addObject(n,300,450);
+            }
         } 
+        
     }
 }
