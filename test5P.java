@@ -265,5 +265,8 @@ public class test5P extends World
         spawner.setLocation(1274,124);
         killer killer = new killer();
         addObject(killer,3,114);
+        preventivaizq preventivaizq = new preventivaizq();
+        addObject(preventivaizq,915,605);
+        preventivaizq.turn(90);
     }
 }
