@@ -13,6 +13,8 @@ public class s3 extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if (Greenfoot.mouseClicked(this)) {
+            Greenfoot.setWorld(new pr1s3());
+        }
     }     
 }
