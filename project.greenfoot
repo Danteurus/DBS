@@ -22,10 +22,13 @@ class.C6.image=c.png
 class.C7.image=c.png
 class.Secciones.image=Pruebas.png
 class.back.image=volver.png
+class.botones.image=controles.png
 class.car.image=car03.png
 class.carnpc.image=car01.png
 class.carnpcmove.image=car01.png
 class.cone.image=cone.png
+class.control.image=granite-light.jpg
+class.controles.image=Estadisticas.png
 class.correcto.image=corect.png
 class.exit.image=salir.png
 class.generar_r.image=resul.jpg
@@ -1397,37 +1400,21 @@ dependency98.type=UsesDependency
 dependency99.from=test5P
 dependency99.to=killer
 dependency99.type=UsesDependency
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-height=1056
-package.numDependencies=430
-package.numTargets=112
-=======
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-=======
 editor.fx.0.height=737
 editor.fx.0.width=814
 editor.fx.0.x=360
 editor.fx.0.y=28
->>>>>>> Stashed changes
 height=838
-package.numDependencies=429
+package.numDependencies=430
 package.numTargets=113
 project.charset=windows-1252
 publish.hasSource=false
 publish.locked=true
 publish.longDesc=
-publish.shortDesc=
-publish.tags=
-publish.title=
-publish.url=
+publish.shortDesc=juego\ carros
+publish.tags=game\ 
+publish.title=DFP
+publish.url=https\://www.greenfoot.org/users/46950
 readme.height=58
 readme.name=@README
 readme.width=47
@@ -1820,18 +1807,14 @@ target46.width=80
 target46.x=0
 target46.y=0
 target47.height=50
-<<<<<<< Updated upstream
-target47.name=botones
-=======
 target47.name=meta
->>>>>>> Stashed changes
 target47.showInterface=false
 target47.type=ClassTarget
 target47.width=80
 target47.x=0
 target47.y=0
 target48.height=50
-target48.name=man22
+target48.name=botones
 target48.showInterface=false
 target48.type=ClassTarget
 target48.width=80

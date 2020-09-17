@@ -9,8 +9,9 @@ con distintas situaciones enseñada en los manuales de cada
 seccion.
 VERSION or DATE:17/09/2020 
 HOW TO START THIS PROJECT:
-Tecnologías usadas en el desarrollo de la aplicación
-Tecnologías necesarias para que el proyecto funcione
+Greenfoot, github
+Para hacer funcion de la aplicacion se puede con el
+ejecutable .jar por medio de java o la aplicaion de greenfoot
 AUTHORS: Cristian Guillermo Serrano & Jean Carlos Portilla
 USER INSTRUCTIONS: 
 Comenzamos con el menu de inicio con las distintas opcioines que son las pruebas,
