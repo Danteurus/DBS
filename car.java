@@ -121,9 +121,17 @@ public class car extends Actor
             Greenfoot.setWorld(new test2P());
         }
         if((pare!=null)&&((int) ac == 0)){
-            pares++;
-            getWorld().removeObject(pare);
-            getWorld().addObject(new siga(), getX(), getY());
+            if(getWorld() instanceof test5P)
+            {
+                pares++;
+                getWorld().removeObject(pare);
+                getWorld().addObject(new siga(), getX(), getY());
+                getWorld().removeObjects(getWorld().getObjects(spawner.class));
+            }else{
+                pares++;
+                getWorld().removeObject(pare);
+                getWorld().addObject(new siga(), getX(), getY());
+            }
         }
         if(meta!=null){
             if(getWorld() instanceof test3P){
@@ -160,7 +168,12 @@ public class car extends Actor
             metas++;
         }
         if((nopark!=null)&&((int) ac == 0)){
-            Greenfoot.setWorld(new test4P());
+            if(getWorld() instanceof test5P)
+            {
+                Greenfoot.setWorld(new test5P());
+            }else{
+                Greenfoot.setWorld(new test4P());
+            }
         }
     }
     /**
