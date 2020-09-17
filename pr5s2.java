@@ -16,6 +16,16 @@ public class pr5s2 extends World
     public pr5s2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1280, 720, 1);  
+        super(1280, 720, 1);
+        prepare();
+    }
+     private void prepare()
+    {
+        A a = new A();
+        addObject(a,200,380);
+        B b = new B();
+        addObject(b,200,450);
+        C c = new C();
+        addObject(c,200,520);
     }
 }

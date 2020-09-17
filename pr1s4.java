@@ -16,6 +16,16 @@ public class pr1s4 extends World
     public pr1s4()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1280, 720, 1); 
+        super(1280, 720, 1);
+        prepare();
+    }
+    private void prepare()
+    {
+        A a = new A();
+        addObject(a,245,380);
+        B b = new B();
+        addObject(b,245,450);
+        C c = new C();
+        addObject(c,245,520);
     }
 }
