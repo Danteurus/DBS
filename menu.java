@@ -28,8 +28,8 @@ public class menu extends World
     {
         Secciones secciones = new Secciones();
         addObject(secciones,360,360);
-        stats stats = new stats();
-        addObject(stats,960,107);
+        controles controles = new controles();
+        addObject(controles,960,107);
         exit exit = new exit();
         addObject(exit,960,616);
         mWEB mWEB = new mWEB();
